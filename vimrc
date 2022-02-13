@@ -1,4 +1,4 @@
-" Configuration file for vim
+# Configuration file for vim
 
 filetyp off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -16,10 +16,10 @@ filetyp plugin indent on
 set modelines=0		" CVE-2007-2438
 inoremap jk <ESC>
 
-" Normally we use vim-extensions. If you want true vi-compatibility
-" remove change the following statements
-set nocompatible	" Use Vim defaults instead of 100% vi compatibility
-set backspace=2		" more powerful backspacing
+# Normally we use vim-extensions. If you want true vi-compatibility
+# remove change the following statements
+set nocompatible	"Use Vim defaults instead of 100% vi compatibility
+set backspace=2		"more powerful backspacing
 set number
 set hlsearch
 set incsearch
@@ -36,4 +36,3 @@ let skip_defaults_vim=1
 packadd! dracula
 syntax enable
 colorscheme dracula
-
